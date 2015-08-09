@@ -1,0 +1,17 @@
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2015-08-08 12:53:03
+project --topLevelPackage com.example.articles --projectName articles --java 7 --packaging WAR
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2015-08-08 12:53:12
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2015-08-08 12:53:14
+hint
+persistence setup --provider HIBERNATE --database MYSQL
+entity jpa --class ~.domain.Article
+hint
+field string --fieldName title --notNull --sizeMax 200
+field string --fieldName author --notNull --sizeMax 200
+entity jpa --class ~.domain.Page
+field reference --fieldName article --type ~.domain.Article
+field number --fieldName pageNumber --type java.lang.Integer
+field string --fieldName title --notNull --sizeMax 200
+field set --type ~domain.Page --fieldName pages --cardinality ONE_TO_MANY --mappedBy article
+controller all --package ~.web
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2015-08-08 22:43:06

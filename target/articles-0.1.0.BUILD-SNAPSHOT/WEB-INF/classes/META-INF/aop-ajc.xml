@@ -1,0 +1,18 @@
+<aspectj>
+<aspects>
+<aspect name="com.example.articles.domain.Article_Roo_JavaBean"/>
+<aspect name="com.example.articles.web.PageController_Roo_Controller"/>
+<aspect name="com.example.articles.domain.Page_Roo_Jpa_Entity"/>
+<aspect name="com.example.articles.domain.Article_Roo_ToString"/>
+<aspect name="com.example.articles.domain.Page_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.example.articles.domain.Page_Roo_ToString"/>
+<aspect name="com.example.articles.domain.Article_Roo_Jpa_Entity"/>
+<aspect name="com.example.articles.web.ArticleController_Roo_Controller"/>
+<aspect name="com.example.articles.domain.Page_Roo_JavaBean"/>
+<aspect name="com.example.articles.domain.Page_Roo_Configurable"/>
+<aspect name="com.example.articles.domain.Article_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.example.articles.domain.Article_Roo_Configurable"/>
+<aspect name="com.example.articles.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+</aspects>
+</aspectj>
+
